@@ -5,10 +5,9 @@ using xampp
 on webpage:
   localhost:8080/titleofproject.php
 
-Hello World works using xampp!
+Hello World and prime number works using xampp!
 
 To Do:
-  - prime number
   - array test
   - contact form?
   - loop test?
