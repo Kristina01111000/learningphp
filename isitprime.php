@@ -8,7 +8,9 @@
       }
     i++;
     }
-    
+    if($isPrime){
+      echo "<p>".$i." is a prime number!</p>";
+    }
     
   } else if($_GET){
     echo "<p>Please enter a positive whole number</p>";
