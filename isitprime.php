@@ -10,6 +10,8 @@
     }
     if($isPrime){
       echo "<p>".$i." is a prime number!</p>";
+    } else {
+      echo "<p>".$i." is not a prime number!</p>";
     }
     
   } else if($_GET){
