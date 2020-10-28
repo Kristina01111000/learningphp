@@ -12,4 +12,5 @@ To Do:
   - array test
   - contact form?
   - loop test?
-  - weather from website?
+  - something updating from website
+  - something that uses storage
