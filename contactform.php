@@ -11,13 +11,16 @@ if($_POST){
   if(!$_POST["subject"]){
     $error .= "A subject is required.<br>";
   }
- if(!$_POST["content"]){
+  if(!$_POST["content"]){
     $error .= "Content is required.<br>";
   }
   if(!$_POST["email"]&& filter_var($_POST["email"],FILTER_VALIDATE_EMAIL)===false){
     $error .= "The email address is invalid.<br>";
   }
-	
+  if ($error != ""){
+    $errorMessage = '<div class="alert alert-danger" role="alert"><p><strong>There were error(s) in your form:</strong></p>'.$error.'</div>';
+
+  }
 }
 ?>
 <!doctype html>
