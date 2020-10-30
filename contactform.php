@@ -19,8 +19,15 @@ if($_POST){
   }
   if ($error != ""){
     $errorMessage = '<div class="alert alert-danger" role="alert"><p><strong>There were error(s) in your form:</strong></p>'.$error.'</div>';
-
   }
+  else{
+    $emailTo = "me@mydomail.com";
+    $subject = $_POST["subject"];
+    $content = $_POST["content"];
+    $headers = "from: ".$_POST["email"];
+    if (mail($emailTo, $subject, $content, $headers)){
+      $successMessage = '<div class="alert alert-success" role="alert"><p><strong>The email was sent!</div>';
+    }
 }
 ?>
 <!doctype html>
