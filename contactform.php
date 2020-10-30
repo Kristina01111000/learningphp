@@ -3,6 +3,17 @@ $error='';
 $success='';
 $errorMessage="";
 
+if($_POST){
+
+  if(!$_POST["email"]){
+    $error .= "An email address is required.<br>";
+  }
+  if(!$_POST["subject"]){
+    $error .= "A subject is required.<br>";
+  }
+	
+	
+}
 ?>
 <!doctype html>
 <html lang="en">
