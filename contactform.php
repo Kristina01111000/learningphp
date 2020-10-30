@@ -1,3 +1,9 @@
+<?php
+$error='';
+$success='';
+$errorMessage="";
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
