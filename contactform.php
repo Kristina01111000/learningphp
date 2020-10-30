@@ -22,7 +22,22 @@
 	  <div class='container'>
 		<h1>Get in touch!</h1>
 		<div id="error" ><? echo $errorMessage.$successMessage; ?></div>
-	  
+	  <form method="post">
+	      <fieldset class="form-group">
+		<label for="email">Email address</label>
+		<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+		<small class="text-muted">We'll never share your email with anyone else.</small>
+	      </fieldset>
+	      <fieldset class="form-group">
+		<label for="subject">Subject</label>
+		<input type="text" class="form-control" id="subject" name="subject" >
+	      </fieldset>
+	      <fieldset class="form-group">
+		<label for="exampleTextarea">What would you like to ask us?</label>
+		<textarea class="form-control" id="content" name="content" rows="3"></textarea>
+	      </fieldset>
+	      <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+	    </form>
 	  </div>
 	  
     <!-- Optional JavaScript -->
