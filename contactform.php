@@ -28,7 +28,10 @@ if($_POST){
     if (mail($emailTo, $subject, $content, $headers)){
       $successMessage = '<div class="alert alert-success" role="alert"><p><strong>The email was sent!</div>';
     }
-}
+   else{
+      $errorMessage = '<div class="alert alert-danger" role="alert"><p>Your message couldn\'t be sent. Try again later</div>';
+    }
+ }
 ?>
 <!doctype html>
 <html lang="en">
