@@ -1,5 +1,5 @@
 # learningphp
-a group of php projects
+a group of basic php projects
 
 on webpage:
   localhost:8080/titleofproject.php
@@ -15,6 +15,7 @@ To Do:
 
 In-Progress:
   - contact form
+  
 Done:
   - hello world
   - prime number checker
