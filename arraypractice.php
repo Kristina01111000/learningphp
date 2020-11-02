@@ -4,4 +4,14 @@ print_r($myArray);
 echo "<br><br>";
 echo $myArray[1];
 echo "<br><br>";
+
+$anotherArray[0]="why";
+$anotherArray[1]="oh";
+$anotherArray[2]="why";
+$anotherArray[3]="oh";
+$anotherArray[4]="why";
+$anotherArray[5]="can't";
+$anotherArray[6]="I";
+print_r($anotherArray);
+echo "<br><br>";
 ?>
