@@ -9,14 +9,13 @@ on webpage:
 Hello World works using xampp!
 
 To Do:
-  - array test
   - contact form?
   - loop test?
   - something updating from website
   - something that uses storage
 
 In-Progress:
-  
+  - array test
   
 Done:
   - hello world
