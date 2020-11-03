@@ -14,4 +14,10 @@ $anotherArray[5]="can't";
 $anotherArray[6]="I";
 print_r($anotherArray);
 echo "<br><br>";
+
+$thirdArray = array(
+  'Germany' => 'German',
+  'England'=>'English',
+  "France"=>"French");
+print_r($thirdArray);
 ?>
