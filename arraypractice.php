@@ -20,4 +20,6 @@ $thirdArray = array(
   'England'=>'English',
   "France"=>"French");
 print_r($thirdArray);
+echo "<br><br>";
+echo sizeof($thirdArray);
 ?>
