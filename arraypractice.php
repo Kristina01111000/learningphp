@@ -22,4 +22,7 @@ $thirdArray = array(
 print_r($thirdArray);
 echo "<br><br>";
 echo sizeof($thirdArray);
+echo "<br><br>";
+$thirdArray['Norway']='Norwegian';
+print_r($thirdArray);
 ?>
