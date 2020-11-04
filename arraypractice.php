@@ -25,4 +25,7 @@ echo sizeof($thirdArray);
 echo "<br><br>";
 $thirdArray['Norway']='Norwegian';
 print_r($thirdArray);
+echo "<br><br>";
+unset($thirdArray["France"]);
+print_r($thirdArray);
 ?>
