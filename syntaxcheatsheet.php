@@ -42,4 +42,16 @@
   echo $var3 + 4;
   print $var2;        // return value = 1, only one parameter
   print "one, two, three";
+
+
+  /* Data Types
+    - integer
+    - float
+    - boolean
+    - array
+    - object -> needs a constructor
+    - null -> value null = has no value, can empty a variable by setting it to null
+      $n = null; // null declaration
+    - resource
+  */
 ?>
