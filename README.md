@@ -13,9 +13,10 @@ To Do:
   - loop test?
   - something updating from website
   - something that uses storage
-
+  - contact form that uses storage
+   
 In-Progress:
-   - contact form that uses storage
+  - syntax cheat sheet
   
 Done:
   - hello world
