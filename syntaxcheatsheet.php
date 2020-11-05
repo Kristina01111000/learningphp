@@ -19,4 +19,13 @@
   # varibles are assigned when you first use them
   $var2 = "test" // need '' or "" for text
   $var3 = 5 // numbers do not need quotations
+
+  /*Variable name rules:
+    - starts with $
+    - then letter or _
+    - can only contain letters, numbers, and underscore
+    - case sensitive ($test and $TEST are different variables)
+  */
+
+
 ?>
