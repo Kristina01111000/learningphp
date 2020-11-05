@@ -35,5 +35,11 @@
       - use global keyword to access global variable inside a function
     static: static keyword makes a local variable remain in memory, not be deleted after function runs
   */
-
+  
+  // echo vs. print
+  echo $var2, $var1;  // no return value, can take multiple parameters
+  echo "one","two","three";
+  echo $var3 + 4;
+  print $var2;        // return value = 1, only one parameter
+  print "one, two, three";
 ?>
