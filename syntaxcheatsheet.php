@@ -29,6 +29,11 @@
 
   # loosely typed language
   # can name type in function declaration if wanted
-
+  /* Variable scope
+    global: declared outside function, can only be accessed outside function
+    local: declared inside function, can only be accessed inside function
+      - use global keyword to access global variable inside a function
+    static: static keyword makes a local variable remain in memory, not be deleted after function runs
+  */
 
 ?>
