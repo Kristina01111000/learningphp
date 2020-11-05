@@ -9,15 +9,16 @@ on webpage:
 Hello World works using xampp!
 
 To Do:
-  - contact form?
+
   - loop test?
   - something updating from website
   - something that uses storage
 
 In-Progress:
-  - array test
+   - contact form that uses storage
   
 Done:
   - hello world
   - prime number checker
   - contact form
+  - array test
