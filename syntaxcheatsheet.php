@@ -27,5 +27,8 @@
     - case sensitive ($test and $TEST are different variables)
   */
 
+  # loosely typed language
+  # can name type in function declaration if wanted
+
 
 ?>
