@@ -1,6 +1,6 @@
 <?php
   // <?php        ?> side bars
-  /* multiline comment
+  /* multiline comment -> can be used to comment out parts of a line
   // single line comment
   # single line comment
   */  
@@ -16,4 +16,7 @@
   echo $Var1; # does not work
   echo $VAR1; # does not work
 
+  # varibles are assigned when you first use them
+  $var2 = "test" // need '' or "" for text
+  $var3 = 5 // numbers do not need quotations
 ?>
