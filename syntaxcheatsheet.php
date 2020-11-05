@@ -10,5 +10,10 @@
   echo "Hello World";
   EcHo "Hello World";
 
+  # variables are case sensitive
+  $var1 = "test";
+  echo $var1; # works
+  echo $Var1; # does not work
+  echo $VAR1; # does not work
 
 ?>
