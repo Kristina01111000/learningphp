@@ -54,4 +54,12 @@
       $n = null; // null declaration
     - resource
   */
+
+  # Basic String Functions
+    echo strlen("Hello World");                       // 11 -> string length
+    echo str_word_count("Hello World");               // 2 -> word count
+    echo strrev("Hello");                             // olleH -> string reverse
+    echo strpos("Hello World", "World");              // 6 -> search for world, output is the character position of match
+    echo srt_replace("World", "You", "Hello World");  // Hello You -> replaces world with you
+
 ?>
