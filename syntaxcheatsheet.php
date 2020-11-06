@@ -70,4 +70,8 @@
     is_numeric('5');  // bool(true)   -> to check if strings have numbers
     # casting also exists 
 
+  # Math 
+  /*Expected math functions, google them if needed*/
+  echo rand();        // gives random number
+  echo rand(0, 100);  // gives random number between 0 and 100 inclusive
 ?>
