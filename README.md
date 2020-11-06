@@ -12,8 +12,7 @@ To Do:
 
   - loop test?
   - something updating from website
-  - something that uses storage
-  - contact form that uses storage
+  - contact form that uses storage ->mysql?
    
 In-Progress:
   - syntax cheat sheet
