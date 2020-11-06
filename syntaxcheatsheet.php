@@ -45,8 +45,8 @@
 
 
   /* Data Types
-    - integer
-    - float
+    - integer   -> automatic type conversion (can cause errors when you change between numbers  and string)
+    - float     -> int * float is automatically a float
     - boolean
     - array
     - object -> needs a constructor
@@ -61,5 +61,13 @@
     echo strrev("Hello");                             // olleH -> string reverse
     echo strpos("Hello World", "World");              // 6 -> search for world, output is the character position of match
     echo srt_replace("World", "You", "Hello World");  // Hello You -> replaces world with you
+
+  # Basic number functions
+    var_dump($var3);  // bool(true) -> returns data type of value
+    # all below have var dump infront b/c they don't print the data to the screen
+    is_int($var3);    // bool(true)   -> returns boolean 
+    is_float($var3);  // bool(false)  -> returns boolean
+    is_numeric('5');  // bool(true)   -> to check if strings have numbers
+    # casting also exists 
 
 ?>
