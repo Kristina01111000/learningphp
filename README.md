@@ -13,6 +13,7 @@ To Do:
   - loop test?
   - something updating from website
   - contact form that uses storage ->mysql?
+  - put mysql stuff in a different file?
    
 In-Progress:
   - syntax cheat sheet
