@@ -1,7 +1,6 @@
 <?php
-  // <?php        ?> side bars
-  /* multiline comment -> can be used to comment out parts of a line
   // single line comment
+  /* multiline comment -> can be used to comment out parts of a line
   # single line comment
   */  
 
