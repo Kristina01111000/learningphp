@@ -73,4 +73,17 @@
   /*Expected math functions, google them if needed*/
   echo rand();        // gives random number
   echo rand(0, 100);  // gives random number between 0 and 100 inclusive
+
+  # Constants => cannot be changed
+  // define(name, value, case-insensitive);
+  define("HELLO", "Hello, World", true);
+  echo hello; // Hello, World
+  // works for arrays
+  define("colors",[
+    "red",
+    "blue",
+    "yellow"
+       ]);
+
+
 ?>
