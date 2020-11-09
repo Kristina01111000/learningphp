@@ -74,7 +74,8 @@
   echo rand();        // gives random number
   echo rand(0, 100);  // gives random number between 0 and 100 inclusive
 
-  # Constants => cannot be changed
+  # Constants 
+  // cannot be changed, global
   // define(name, value, case-insensitive);
   define("HELLO", "Hello, World", true);
   echo hello; // Hello, World
