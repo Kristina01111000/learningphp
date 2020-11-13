@@ -85,6 +85,7 @@
     "blue",
     "yellow"
        ]);
-
+  echo colors[1]; // blue
+  // -> cannot print the entire array with just 'echo colors'
 
 ?>
